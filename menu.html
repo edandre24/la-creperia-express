@@ -19,51 +19,387 @@
     <h1>Menú</h1>
   </header>
 
-  <section>
-    <div class="section-label">Menú comida</div>
-    <div class="item">
-      <div>
-        <div class="item-name">Croissant de huevo</div>
-      </div>
-      <div class="item-price">$ —</div>
-    </div>
-    <div class="item">
-      <div>
-        <div class="item-name">Croissant arugula + pesto</div>
-      </div>
-      <div class="item-price">$ —</div>
-    </div>
-    <div class="item">
-      <div>
-        <div class="item-name">Croissant Nutella</div>
-      </div>
-      <div class="item-price">$ —</div>
-    </div>
-  </section>
+  <nav class="quick-nav">
+    <button type="button" class="active" data-tab="crepas">Crepas</button>
+    <button type="button" data-tab="bebidas">Bebidas</button>
+    <button type="button" data-tab="brunch">Brunch</button>
+  </nav>
 
-  <section>
-    <div class="section-label">Menú bebida</div>
-    <div class="item">
-      <div>
-        <div class="item-name">Cold Brew Clásico</div>
-        <span class="item-note">100% puro.</span>
+  <!-- ===================== CREPAS ===================== -->
+  <div class="menu-group active" id="crepas">
+    <div class="menu-group-title">Crepas</div>
+
+    <div class="menu-subgroup">
+      <div class="section-label">Especiales de la Nutria — $120</div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/cacao-nevado.png" alt="">
+          <div>
+            <div class="item-name">Cacao Nevado</div>
+            <span class="item-note">Harina de cacao · nieve de vainilla · plátano · lechera · nuez</span>
+          </div>
+        </div>
+        <div class="item-price">$120</div>
       </div>
-      <div class="item-price">$ —</div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/guayaba-y-nieve.png" alt="">
+          <div>
+            <div class="item-name">Guayaba y Nieve</div>
+            <span class="item-note">Mermelada de guayaba · nieve de vainilla · lechera · almendra</span>
+          </div>
+        </div>
+        <div class="item-price">$120</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/matcha-otono.png" alt="">
+          <div>
+            <div class="item-name">Matcha Otoño</div>
+            <span class="item-note">Harina de matcha · manzana caramelizada · lechera · canela · nieve de vainilla</span>
+          </div>
+        </div>
+        <div class="item-price">$120</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/pesto-de-la-nutria.png" alt="">
+          <div>
+            <div class="item-name">Pesto de la Nutria</div>
+            <span class="item-note">Salsa pesto · queso mozzarella · champiñones a la mantequilla · albahaca</span>
+          </div>
+        </div>
+        <div class="item-price">$120</div>
+      </div>
     </div>
-  </section>
+
+    <div class="menu-subgroup">
+      <div class="section-label">Clásicas de la Nutria — $90</div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/chipotle-champinon.png" alt="">
+          <div>
+            <div class="item-name">Chipotle Champiñón</div>
+            <span class="item-note">Queso mozzarella · champiñón · aderezo chipotle</span>
+          </div>
+        </div>
+        <div class="item-price">$90</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/mediterranea.png" alt="">
+          <div>
+            <div class="item-name">Mediterránea</div>
+            <span class="item-note">Philadelphia · pomodoro · jamón · albahaca</span>
+          </div>
+        </div>
+        <div class="item-price">$90</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/nutella-frambuesa.png" alt="">
+          <div>
+            <div class="item-name">Nutella Frambuesa</div>
+            <span class="item-note">Nutella · Philadelphia · frambuesa · nuez</span>
+          </div>
+        </div>
+        <div class="item-price">$90</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/guayaba-y-avena.png" alt="">
+          <div>
+            <div class="item-name">Guayaba y Avena</div>
+            <span class="item-note">Lechera · mermelada de guayaba · Philadelphia · ojuelas de avena · almendra</span>
+          </div>
+        </div>
+        <div class="item-price">$90</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/jamaica.png" alt="">
+          <div>
+            <div class="item-name">Jamaica</div>
+            <span class="item-note">Mermelada de Jamaica · Philadelphia · lechera</span>
+          </div>
+        </div>
+        <div class="item-price">$90</div>
+      </div>
+      <div class="item" style="border-bottom: none;">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/napolitana.png" alt="">
+          <div>
+            <div class="item-name">Napolitana</div>
+            <span class="item-note">Pomodoro · peperoni · mozzarella</span>
+          </div>
+        </div>
+        <div class="item-price">$90</div>
+      </div>
+    </div>
+
+    <div class="menu-subgroup">
+      <div class="section-label">Arma la tuya</div>
+      <div class="item">
+        <div>
+          <div class="item-name">2 ingredientes (base)</div>
+          <span class="item-note">Gluten free disponible, sin costo extra</span>
+        </div>
+        <div class="item-price">$75</div>
+      </div>
+      <div class="item">
+        <div>
+          <div class="item-name">Ingrediente extra</div>
+        </div>
+        <div class="item-price">+$10</div>
+      </div>
+      <div class="item" style="border-bottom: none; display: block; padding-top: 4px;">
+        <span class="item-note">
+          <strong style="color: var(--ink); font-weight: 600;">Dulces:</strong> Lechera, Nutella, Philadelphia, Mermelada de guayaba, Mermelada de Jamaica, Cajeta, Crema de maní<br>
+          <strong style="color: var(--ink); font-weight: 600;">Saladas:</strong> Jamón, Queso, Champiñón, Espinaca, Peperoni, Pomodoro, Salsa pesto, Chipotle<br>
+          <strong style="color: var(--ink); font-weight: 600;">Fruta:</strong> Fresa, Plátano, Manzana, Frambuesa
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== BEBIDAS ===================== -->
+  <div class="menu-group" id="bebidas">
+    <div class="menu-group-title">Bebidas</div>
+
+    <div class="menu-subgroup">
+      <div class="section-label">Barra de Brew</div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/citrus-cold-brew-tonic.png" alt="">
+          <div>
+            <div class="item-name">Citrus Cold Brew Tonic</div>
+            <span class="item-note">Cold brew · extracto de naranja · agua tónica</span>
+          </div>
+        </div>
+        <div class="item-price">$60</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/cold-brew-sucio.png" alt="">
+          <div>
+            <div class="item-name">Matcha Brew (Sucio)</div>
+            <span class="item-note">Cold brew · matcha</span>
+          </div>
+        </div>
+        <div class="item-price">$85</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/banana-cacao.png" alt="">
+          <div>
+            <div class="item-name">Banana Cacao</div>
+            <span class="item-note">Cacao · banana · leche de coco · miel de agave</span>
+          </div>
+        </div>
+        <div class="item-price">$85</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/coconut-water-cold-brew.png" alt="">
+          <div>
+            <div class="item-name">Coconut Water Cold Brew</div>
+            <span class="item-note">Cold brew · agua de coco · miel de agave</span>
+          </div>
+        </div>
+        <div class="item-price">$65</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/curcuma-latte.png" alt="">
+          <div>
+            <div class="item-name">Cúrcuma Latte</div>
+            <span class="item-note">Cúrcuma · pimienta · canela · leche · café</span>
+          </div>
+        </div>
+        <div class="item-price">$80</div>
+      </div>
+      <div class="item" style="border-bottom: none;">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/cold-brew-clasico.png" alt="">
+          <div>
+            <div class="item-name">Cold Brew Clásico</div>
+            <span class="item-note">100% puro. Pure energy.</span>
+          </div>
+        </div>
+        <div class="item-price">$60</div>
+      </div>
+    </div>
+
+    <div class="menu-subgroup">
+      <div class="section-label">Cold Brew con Foam</div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/pistache-foam.png" alt="">
+          <div>
+            <div class="item-name">Pistache Foam</div>
+            <span class="item-note">Cold brew · foam de pistache</span>
+          </div>
+        </div>
+        <div class="item-price">$80</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/vainilla-foam.png" alt="">
+          <div>
+            <div class="item-name">Vainilla Foam</div>
+            <span class="item-note">Cold brew · foam de vainilla</span>
+          </div>
+        </div>
+        <div class="item-price">$70</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/moka.png" alt="">
+          <div>
+            <div class="item-name">Moka</div>
+            <span class="item-note">Cold brew · foam de cacao y miel</span>
+          </div>
+        </div>
+        <div class="item-price">$75</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/mont-blanc.png" alt="">
+          <div>
+            <div class="item-name">Mont Blanc</div>
+            <span class="item-note">Cold brew · foam de cítricos, vainilla y sal · nuez moscada · ralladura de naranja</span>
+          </div>
+        </div>
+        <div class="item-price">$80</div>
+      </div>
+      <div class="item" style="border-bottom: none;">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/caramelo-salado.png" alt="">
+          <div>
+            <div class="item-name">Caramelo Salado</div>
+            <span class="item-note">Cold brew · foam de caramelo salado</span>
+          </div>
+        </div>
+        <div class="item-price">$80</div>
+      </div>
+      <p class="subhead" style="text-align: left; margin-top: 10px;">Disponible también en Decaf.</p>
+    </div>
+
+    <div class="menu-subgroup">
+      <div class="section-label">Matcha</div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/matcha-latte.png" alt="">
+          <div>
+            <div class="item-name">Matcha Latte</div>
+            <span class="item-note">Leche de su preferencia · matcha ceremonial · miel de agave</span>
+          </div>
+        </div>
+        <div class="item-price">$80</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/matcha-de-vainilla.png" alt="">
+          <div>
+            <div class="item-name">Matcha de Vainilla</div>
+            <span class="item-note">Leche de su preferencia · matcha ceremonial · foam de vainilla (miel, vainilla, sal)</span>
+          </div>
+        </div>
+        <div class="item-price">$90</div>
+      </div>
+      <div class="item">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/matcha-blue.png" alt="">
+          <div>
+            <div class="item-name">Matcha Blue</div>
+            <span class="item-note">Matcha ceremonial · foam de vainilla y naranja con butterfly pea</span>
+          </div>
+        </div>
+        <div class="item-price">$90</div>
+      </div>
+      <div class="item" style="border-bottom: none;">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/coconut-matcha.png" alt="">
+          <div>
+            <div class="item-name">Coconut Matcha</div>
+            <span class="item-note">Agua de coco · foam de matcha</span>
+          </div>
+        </div>
+        <div class="item-price">$85</div>
+      </div>
+    </div>
+
+    <div class="menu-subgroup">
+      <div class="section-label">Caliente</div>
+      <div class="item" style="border-bottom: none;">
+        <div class="item-main">
+          <img class="item-thumb" src="assets/thumbs/cafe-de-olla.png" alt="">
+          <div>
+            <div class="item-name">Café de Olla</div>
+            <span class="item-note">Café · canela · piloncillo · naranja</span>
+          </div>
+        </div>
+        <div class="item-price">$60</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== BRUNCH ===================== -->
+  <div class="menu-group" id="brunch">
+    <div class="menu-group-title">Brunch</div>
+    <p class="subhead" style="text-align: left;">La línea Express — para tu oficina, en 15-25 min.</p>
+
+    <div class="menu-subgroup">
+      <div class="item">
+        <div>
+          <div class="item-name">Croissant de huevo</div>
+        </div>
+        <div class="item-price">$ —</div>
+      </div>
+      <div class="item">
+        <div>
+          <div class="item-name">Croissant arugula + pesto</div>
+        </div>
+        <div class="item-price">$ —</div>
+      </div>
+      <div class="item" style="border-bottom: none;">
+        <div>
+          <div class="item-name">Croissant Nutella</div>
+        </div>
+        <div class="item-price">$ —</div>
+      </div>
+    </div>
+  </div>
 
   <div class="actions" style="margin-top: 40px;">
-    <a class="cta-primary" href="https://wa.me/523321615773
-      ?text=Hola%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">
+    <a class="cta-primary" href="https://wa.me/523321615773?text=Hola%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">
       Ordena aquí
     </a>
   </div>
 
   <footer>
-    <strong>Horario de atención:</strong> por confirmar<span class="placeholder-tag">pendiente</span><br>
+    <strong>Horario de atención:</strong> 10:00 AM – 3:00 PM<br>
     La Crepería
   </footer>
 
 </main>
+
+<script>
+  var tabButtons = document.querySelectorAll('.quick-nav button');
+  var panels = document.querySelectorAll('.menu-group');
+
+  tabButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var target = btn.getAttribute('data-tab');
+
+      tabButtons.forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+
+      panels.forEach(function (p) {
+        p.classList.toggle('active', p.id === target);
+      });
+    });
+  });
+</script>
 </body>
 </html>
